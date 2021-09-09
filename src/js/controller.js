@@ -73,7 +73,6 @@ const searchRecipe = async function () {
 };
 
 const pagination = function (pageNo) {
-  //console.log('success');
   resultView.render(model.searchResultPerPage(pageNo));
   paginationView.render(model.state.search);
 };
@@ -123,7 +122,6 @@ const init = function () {
   paginationView.addHandlerPagination(pagination);
   recipe.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('learing git');
-  console.log('master brach final');
+  console.log('Application hosted successfully');
 };
 init();
