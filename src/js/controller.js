@@ -122,8 +122,7 @@ const init = function () {
   paginationView.addHandlerPagination(pagination);
   recipe.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('learing git');
-  console.log('learing git 2');
-  console.log('learing git 2');
+  console.log('learing git master');
+  console.log('learing git branch');
 };
 init();
