@@ -124,5 +124,6 @@ const init = function () {
   addRecipeView.addHandlerUpload(controlAddRecipe);
   console.log('learing git');
   console.log('learing git 2');
+  console.log('learing git 2');
 };
 init();
