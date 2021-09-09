@@ -12,6 +12,14 @@
 //git config --global user.name imtiazz
 //git config --global user.email md.imtiazz@gmail.com
 //git status --> untracked files
+//git log--> to check log
+// git add -A -> Add file to the statging area
+//untracked files(U)->staging arae(A)-> if modified before commit(m)-> commit
+//git commit -m 'second commit' - After adding commit file with comment
+//git reset --hard 39c18ee2624be64644c66992c t- to reset to previous commit. It should be avoided
+//as it removes the work done after the commit(to which its restored), instead branch should be created
+//with new feature
+//git branch {branch name}- to create new branch
 
 import * as model from './model.js';
 import recipe from './views/recipeView.js';
@@ -114,5 +122,6 @@ const init = function () {
   paginationView.addHandlerPagination(pagination);
   recipe.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('learing git');
 };
 init();
