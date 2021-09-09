@@ -123,5 +123,9 @@ const init = function () {
   recipe.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   console.log('learing git');
+<<<<<<< HEAD
+=======
+  console.log('learing git 2');
+>>>>>>> new-feature
 };
 init();
