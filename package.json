@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --no-minify index.html --dist-dir ./dist"
+  },
+  "author": "Mohamad Imtiaz",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "core-js": "^3.16.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
