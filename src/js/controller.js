@@ -20,6 +20,7 @@
 //as it removes the work done after the commit(to which its restored), instead branch should be created
 //with new feature
 //git branch {branch name}- to create new branch
+// always make change to branch and if everything working commit code to master branch
 
 import * as model from './model.js';
 import recipe from './views/recipeView.js';
